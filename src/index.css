@@ -180,3 +180,85 @@
     45deg
     , royalblue, transparent);
 }
+
+@media(max-width:1326px){
+  #card,#card-mid,#card-right{
+    margin:16px;
+  }
+}
+
+@media(max-width:1244px){
+  #card,#card-mid,#card-right{
+    margin:13px;
+  }
+
+  p{
+    font-size: 1.25rem;
+  }
+}
+
+@media(max-width:986px){
+  #card,#card-mid,#card-right{
+    margin:8px;
+  }
+}
+
+@media(max-width:886px){
+  p{
+    font-size: 1.25rem;
+  }
+}
+
+@media(max-width:300px){
+  #cards{
+    width: 78vw;
+  }
+}
+
+@media(max-width:598px){
+  #card,#card-mid,#card-right{
+    width: 37vw;
+  }
+  #container{
+    height: 93vh;
+  }
+  #footer{
+    font-size: 16px;
+  }
+}
+
+@media(max-width:598px){
+  #cards{
+    width: 92vw;
+  }
+
+  p{
+    font-size: 17px;
+  }
+}
+
+@media(max-width:1040px){
+  #slogan{
+    position: absolute;
+    left: 33vw;
+    top: 1vh;
+  }
+}
+
+@media(max-width:750px){
+  #slogan{
+   font-size: 1.25rem;
+  }
+  #logo{
+    font-size: 1.25rem;
+  }
+  .link{
+    font-size: 1.25rem;
+  }
+}
+
+@media(max-width:560px){
+  #slogan{
+    visibility: hidden;
+  }
+}
