@@ -11,6 +11,7 @@ function Navbar() {
                 <div id="right-nav">
                     <NavLink className='link' exact activeClassName='select' to='/'>Home</NavLink>
                     <NavLink className='link' activeClassName='select' to='/State'>State</NavLink>
+                    <NavLink className='link' activeClassName='select' to='/Centre'>Centre</NavLink>
                 </div>
             </div>
         </>

@@ -18,6 +18,11 @@
     margin-left: 1vw;
 }
 
+#chart{
+  width: 1px;
+  height: 5px;
+}
+
 #right-nav{
   position: absolute;
   right: 4vw;
@@ -45,8 +50,8 @@
 }
 
 #container{
+  height: 84vh;
   background-image: linear-gradient(to bottom,royalblue,white);
-    height: 84vh;
 }
 
 #cards{
@@ -137,14 +142,23 @@
   font-size:1.4rem;
 }
 
+#centre-head{
+  text-align: center;
+    font-size: 1.75rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-shadow: 0px 0px 20px royalblue
+}
+
 #slogan{
   color: royalblue;
-  display: block;
-  margin: auto;
-  font-size: 1.5rem;
-  font-family: system-ui;
-  text-shadow: 3 14 black;
-  text-shadow: 1px 1px 10px royalblue;
+    display: block;
+    margin-left: 20vw;
+    margin-top: 1vh;
+    font-size: 1.5rem;
+    font-family: system-ui;
+    text-shadow: 3 14 black;
+    text-shadow: 1px 1px 10px royalblue;
 }
 
 .tab{
@@ -179,6 +193,56 @@
   background-image: linear-gradient(
     45deg
     , royalblue, transparent);
+}
+
+#vaccine-container{
+  width: 80vw;
+  height: 70vh;
+  background-color: white;
+  margin: auto;
+  margin-top: 10vh;
+  box-shadow: 0px 0px 25px black;
+  border-radius: 75px;
+}
+
+#inner-head{
+  text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    padding-top: 2vh;
+    color:royalblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: petite-caps;
+}
+
+#input{
+    width: 25vw;
+    margin-left: 15vw;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#input:focus-visible{
+  border-color: royalblue;
+}
+
+#vaccine-head{
+  margin-top: 17vh;
+    text-align: center;
+    text-decoration: underline;
+    color: royalblue;
+    font-weight: bolder;
+    text-shadow: 0px 0px 20px white;
+}
+
+#submit{
+  margin-left: 5vw;
+    width: 9vw;
+    background-image: linear-gradient(
+45deg
+, royalblue, white);
+    height: 5vh;
+    border-radius: 16px;
 }
 
 @media(max-width:1326px){
